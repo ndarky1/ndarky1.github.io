@@ -88,7 +88,6 @@ p {
 .experiences__link:visited {
   color: var(--black);
 }
-
 .section__experiences--text {
   padding: 20px;
   place-self: start;
@@ -130,13 +129,13 @@ p {
   grid-column-gap: 0px;
   grid-row-gap: 10px;
   grid-column-gap: 10px;
-
   padding: 10px 0 10px 0;
   justify-content: space-around;
   align-items: center;
   justify-items: center;
   background: var(--grey);
 }
+
 .section__projects--title {
   font-family: var(--font);
   font-size: 25px;
