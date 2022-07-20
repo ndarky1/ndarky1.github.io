@@ -84,6 +84,11 @@ p {
   color: var(--black);
   background: var(--green);
 }
+
+.experiences__link:visited {
+  color: var(--black);
+}
+
 .section__experiences--text {
   padding: 20px;
   place-self: start;
