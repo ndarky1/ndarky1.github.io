@@ -74,6 +74,16 @@ p {
   place-self: center;
 }
 
+.experiences__link {
+  color: var(--green);
+  text-decoration: none;
+  font-weight: 800;
+}
+
+.experiences__link:hover {
+  color: var(--black);
+  background: var(--green);
+}
 .section__experiences--text {
   padding: 20px;
   place-self: start;
@@ -136,18 +146,26 @@ p {
   background-color: var(--grey);
   border: var(--grey);
   border-radius: 50%;
-}
-
-.section__projects--link {
-  color: var(--black);
-  text-decoration: none;
   font-family: var(--font);
-  font-size: 50px;
+  font-size: 30px;
 }
 
 .project_button:hover {
   background: var(--green);
+  color: var(--black);
 }
+
+.section__projects--link {
+  color: var(--green);
+  text-decoration: none;
+  font-weight: 800;
+}
+
+.section__projects--link:hover {
+  color: var(--black);
+  background: var(--green);
+}
+
 .section__projects--content {
   font-family: var(--font);
 
@@ -158,9 +176,13 @@ p {
 }
 
 .git-projects--link {
-  color: var(--black);
-  background-color: var(--green);
+  color: var(--green);
   text-decoration: none;
+  font-weight: 800;
+}
+.git-projects--link:hover {
+  color: var(--black);
+  background: var(--green);
 }
 /* Footer */
 .footer {
