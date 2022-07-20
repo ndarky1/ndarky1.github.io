@@ -186,6 +186,11 @@ p {
   color: var(--black);
   background: var(--green);
 }
+
+.git-projects--link:visited {
+  color: var(--black);
+}
+
 /* Footer */
 .footer {
   font-family: var(--font);
